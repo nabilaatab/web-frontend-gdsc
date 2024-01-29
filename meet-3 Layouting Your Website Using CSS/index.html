@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meet 3 - Layouting With CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="kotak"
+      style="
+        margin-left: 200px;
+        margin-top: 100px;
+        padding-left: 50px;
+        padding-top: 20px;
+      "
+    >
+      No Margin
+    </div>
+
+    <div class="kotak with-margin">
+      Margin
+    </div>
+
+    <div class="kotak with-padding">
+      Padding
+    </div>
+
+    <div>
+      <div class="kotak"></div>
+      <div
+        class="kotak"
+        style="
+          background-color: blue;
+          position: relative;
+          top: 30px;
+          left: 20px;
+        "
+      ></div>
+      <div class="kotak"></div>
+    </div>
+
+    <div style="border: 1px solid black;">
+      <h1 style="position: absolute;">Absolute</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quos
+        optio asperiores exercitationem nulla. Labore sint, veniam iste
+        excepturi, totam cupiditate sed culpa natus eius exercitationem facilis.
+        Tenetur, id vel?
+      </p>
+    </div>
+
+    <button style="position: fixed; bottom: 20px; right: 20px;">Go Up</button>
+
+    <!-- Display block -->
+    <div style="width: 50vw;">
+      <div style="height: 200px; background-color: aqua;"></div>
+    </div>
+
+    <div class="kotak" style="display: inline;">inline</div>
+    <div class="kotak" style="display: inline;">inline</div>
+    <div class="kotak" style="display: inline;">inline</div>
+
+    <div class="kotak" style="display: inline-block;">inline block</div>
+    <div class="kotak" style="display: none;">inline block</div>
+    <div class="kotak" style="display: inline-block;">inline block</div>
+
+    <!-- Flexbox -->
+    <h2 style="margin-top: 200px;">Flexbox</h2>
+    <div class="flex-container">
+      <div class="kotak">1</div>
+      <div class="kotak">2</div>
+      <div class="kotak">3</div>
+      <div class="kotak">4</div>
+      <div class="kotak">5</div>
+    </div>
+
+    <!-- Media query -->
+    <div class="kotak with-media-query"></div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+:root {
+    font-size: 10px;
+  }
+  
+  h3 {
+    color: aqua;
+    font-size: 80px;
+  }
+  
+  p {
+    width: 300px;
+    color: red;
+    text-align: justify;
+    font-family: monospace;
+  }
+  
+  .judul {
+    color: yellow;
+  }
+  
+  #tombol-kirim {
+    color: orange;
+  }
+  
+  #tombol-kirim:hover {
+    background-color: antiquewhite;
+  }
+  
+  /* * {
+    background-color: brown;
+  } */
+  
+  div {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .background-color {
+    background-color: blue;
+  }
+  
+  .background-image {
+    background-image: url("../meet-1/vallen.png");
+    background-position: bottom;
+    background-size: cover;
+  }
+  
+  .border-solid {
+    border: 2px solid black;
+  }
+  
+  .border-dashed {
+    border: 2px dashed orange;
+  }
+  
+  .border-double {
+    border: 3px double black;
+  }
+  
+  .border-dotted {
+    border: 1px dotted black;
+  }
+  
+  h5 {
+    font-size: 20px;
+    color: blue;
+  }
+  
+  h5 {
+    font-size: 20px;
+    color: red;
+  }
+  
+  
+  #id-h6 {
+    font-size: 90px;
+  }
+  
+  .class-h6 {
+    font-size: 45px;
+    color: orange;
+  }
+  
+  h6 {
+    font-size: 40px;
+    color: blue;
+  }

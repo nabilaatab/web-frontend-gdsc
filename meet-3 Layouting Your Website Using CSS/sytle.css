@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .kotak {
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: red;
+  }
+  
+  .with-margin {
+    background-color: blue;
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 20px 30px; */
+    margin: 30px;
+  }
+  
+  .with-padding {
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    background-color: aqua;
+    align-items: center
+  }
+  
+
+  @media screen and (min-width: 720px) {
+    .with-media-query {
+      background-color: blue;
+      width: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .with-media-query {
+      background-color: pink;
+      width: 500px;
+    }
+  }
